@@ -4,12 +4,20 @@
     android:orientation="vertical"
     android:layout_height="wrap_content">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
     <TextView
         android:id="@+id/textView"
         android:gravity="center"
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"/>
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
 
 </LinearLayout>
